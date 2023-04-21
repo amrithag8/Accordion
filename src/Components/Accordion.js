@@ -19,7 +19,7 @@ const Accordion = ({ accordionData, title, content, index, state, setState }) =>
       <div className="heading">
         <h2>{title}</h2>
         <img
-          src="/images/image2.jpg"
+          src="images/image2.jpg"
           alt="arrow"
           onClick={() => accordionHandler(index)}
         />
