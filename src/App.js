@@ -1,6 +1,4 @@
 import logo from "./logo.svg";
-import image1 from "./images/image1.jpg";
-import image2 from "./images/image2.jpg";
 import "./App.css";
 import { useState } from "react";
 import Accordion from "./Components/Accordion";
@@ -39,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <img src={image1} alt="image" />
+        <img src={process.env.PUBLIC_URL+'/images/image1.jpg'} alt="image" />
         <h3>FAQ</h3>
         <div className="container-fluid">
           {accordionData.map((item, index) => {

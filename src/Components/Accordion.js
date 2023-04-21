@@ -1,5 +1,5 @@
 import { useState } from "react";
-import image2 from "../images/image2.jpg";
+
 const Accordion = ({ accordionData, title, content, index, state, setState }) => {
     const [active, setActive] = useState(false);
 
@@ -20,7 +20,7 @@ const Accordion = ({ accordionData, title, content, index, state, setState }) =>
       <div className="heading">
         <h2>{title}</h2>
         <img
-          src={image2}
+          src={process.env.PUBLIC_URL+'/images/image2.jpg'}
           alt="arrow"
           onClick={() => accordionHandler(index)}
         />
