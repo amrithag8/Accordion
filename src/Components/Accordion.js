@@ -1,5 +1,5 @@
 import { useState } from "react";
-import image2 from "../images/image2.jpg";
+import image2 from "../Assets/image2.jpg";
 
 const Accordion = ({ accordionData, title, content, index, state, setState }) => {
     const [active, setActive] = useState(false);

@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 import Accordion from "./Components/Accordion";
-import image1 from "./images/image1.jpg";
+import image1 from "./Assets/image1.jpg";
+
 
 
 function App() {
