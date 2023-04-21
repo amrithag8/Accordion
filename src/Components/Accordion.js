@@ -11,8 +11,7 @@ const Accordion = ({ accordionData, title, content, index, state, setState }) =>
       setActive(true);
     }
 
-    console.log("state is", state);
-    console.log("active is", active);
+    
   };
 
   return (
