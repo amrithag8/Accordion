@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <img src="images/image1.jpg" alt="image" />
+        <img src={process.env.PUBLIC_URL+`/images/image1.jpg`} alt="image" />
         <h3>FAQ</h3>
         <div className="container-fluid">
           {accordionData.map((item, index) => {
